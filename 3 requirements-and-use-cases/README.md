@@ -8,5 +8,5 @@ Practical use cases for SNOMED CT span the entire clinical information lifecycle
 
 The subsequent sections will introduce some of the typical requirements and use cases for reference sets and the different types of reference sets which support these use cases.
 
-* [3.1. Requirements](https://github.com/IHTSDO/snomedct-refset-guide/blob/main/3%20requirements-and-use-cases/3.1.-Requirements_35985503.html)
-* [3.2. Use Cases](https://github.com/IHTSDO/snomedct-refset-guide/blob/main/3%20requirements-and-use-cases/3.2.-Use-Cases_35985535.html)
+* [Requirements](https://github.com/IHTSDO/snomedct-refset-guide/blob/main/3%20requirements-and-use-cases/3.1.-Requirements_35985503.html)
+* [Use Cases](https://github.com/IHTSDO/snomedct-refset-guide/blob/main/3%20requirements-and-use-cases/3.2.-Use-Cases_35985535.html)
