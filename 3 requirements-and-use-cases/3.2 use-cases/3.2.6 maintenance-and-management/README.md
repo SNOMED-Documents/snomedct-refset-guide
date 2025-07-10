@@ -4,7 +4,6 @@ Managing the components used to represent the large number of clinical data entr
 
 For more detailed use case examples, please refer to the following sections:
 
-  * [3.2.6.1. Constrain Value Sets](3.2.6.1.-Constrain-Value-Sets_35985629.html)
-  * [3.2.6.2. Managing Value Sets](3.2.6.2.-Managing-Value-Sets_35985640.html)
-  * [3.2.6.3. Managing Component Inactivation](3.2.6.3.-Managing-Component-Inactivation_35985643.html)
-
+* [3.2.6.1. Constrain Value Sets](https://github.com/IHTSDO/snomedct-refset-guide/blob/main/3%20requirements-and-use-cases/3.2%20use-cases/3.2.6%20maintenance-and-management/3.2.6.1.-Constrain-Value-Sets_35985629.html)
+* [3.2.6.2. Managing Value Sets](https://github.com/IHTSDO/snomedct-refset-guide/blob/main/3%20requirements-and-use-cases/3.2%20use-cases/3.2.6%20maintenance-and-management/3.2.6.2.-Managing-Value-Sets_35985640.html)
+* [3.2.6.3. Managing Component Inactivation](https://github.com/IHTSDO/snomedct-refset-guide/blob/main/3%20requirements-and-use-cases/3.2%20use-cases/3.2.6%20maintenance-and-management/3.2.6.3.-Managing-Component-Inactivation_35985643.html)
