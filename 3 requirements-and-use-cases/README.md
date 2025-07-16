@@ -7,6 +7,3 @@ Reference sets are useful for including, excluding and prioritizing content or m
 Practical use cases for SNOMED CT span the entire clinical information lifecycle from data entry, through to storage, display, communication, retrieval, analysis and reuse. Reference sets support effective and efficient use of SNOMED CT for a range of purposes at different stages in that lifecycle. For example, reference sets can assist with user interface customization, specification of reporting criteria, mapping to statistical classifications and representation of links to knowledge resources. They can also be used to represent terminology bindings and to validate the content of both inbound and outbound communications.
 
 The subsequent sections will introduce some of the typical requirements and use cases for reference sets and the different types of reference sets which support these use cases.
-
-* [Requirements](https://github.com/IHTSDO/snomedct-refset-guide/blob/main/3%20requirements-and-use-cases/3.1.-Requirements_35985503.html)
-* [Use Cases](https://github.com/IHTSDO/snomedct-refset-guide/blob/main/3%20requirements-and-use-cases/3.2.-Use-Cases_35985535.html)

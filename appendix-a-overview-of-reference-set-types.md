@@ -2,37 +2,16 @@
 
 ## Content Reference Sets
 
-  
+Table: Overview of reference set types and example use cases, as described in the international Release of SNOMED CT
 
-Table Appendix A:-1: Overview of reference set types and example use cases, as described in the international Release of SNOMED CT
+<table><thead><tr><th width="172.375">Reference Set Type</th><th width="306.0625">Description</th><th width="358.625">Example Use Cases</th></tr></thead><tbody><tr><td>Simple reference set</td><td>Allows a set of components to be specified for inclusion or exclusion for a specified purpose</td><td>Constrain values available in clinical data entry templates. (E.g. define pick lists, constrain searches etc.)<br>Specify values accepted for communication purposes in specific elements in a communication message</td></tr><tr><td>Ordered reference set</td><td>Allows a collection of components to be defined with a specified given a priority ordering</td><td>Alternative navigation hierarchies. Specify a preferred order of concepts/descriptions in pick lists</td></tr><tr><td>Attribute value reference set</td><td>Allows a value from a specified range to be associated with a component</td><td>This reference set type can be used for many different purposes that are related to both content and technical use cases. E.g. to specify why a concept or description has been inactivated</td></tr><tr><td>Simple map reference set</td><td>Allows representation of simple maps between SNOMED CT concepts and values in other code systems.</td><td>Appropriate where there is a close "one-to-one" mapping between SNOMED CT concepts and coded values in another code system.</td></tr><tr><td>Complex and Extended Map reference sets</td><td>Allows representation of simple complex maps between SNOMED CT concepts and values in other code systems</td><td>Enables representation of maps where each SNOMED CT concept may map to one or more codes in a target scheme, or where the correlation of each map should be specified</td></tr><tr><td>Language reference set</td><td>Supports the representation of language and dialects preferences for the use of particular descriptions</td><td>Used to specify the acceptable and preferred terms for use within a particular country or region. Can also be used to represent preferences for use of descriptions in a more specific context such as a clinical specialty, organization or department</td></tr><tr><td>Query specification reference set</td><td>Allows a serialized query to represent the membership of a subset of SNOMED CT components</td><td>Used to represent Intentional definitions of reference sets. Constrain values available in clinical data entry templates, as part of a terminology binding</td></tr><tr><td>Annotation reference set</td><td>Allows text strings to be associated with components for any specified purpose</td><td>E.g. linking a SNOMED CT component to a url, e.g. for linking to a clinical guideline</td></tr><tr><td>Association reference set</td><td>Represents a set of unordered associations of a particular type between components</td><td>Used to associate inactive concepts with active concepts that can serve as potential replacements for the inactivated concepts</td></tr></tbody></table>
 
-  
-
-**Reference Set Type**| **Description**| **Example Use Cases**  
----|---|---  
-Simple reference set| Allows a set of components to be specified for inclusion or exclusion for a specified purpose | Constrain values available in clinical data entry templates. (E.g. define pick lists, constrain searches etc.)   
-Specify values accepted for communication purposes in specific elements in a communication message   
-Ordered reference set| Allows a collection of components to be defined with a specified given a priority ordering | Alternative navigation hierarchies. Specify a preferred order of concepts/descriptions in pick lists   
-Attribute value reference set| Allows a value from a specified range to be associated with a component| This reference set type can be used for many different purposes that are related to both content and technical use cases. E.g. to specify why a concept or description has been inactivated   
-Simple map reference set| Allows representation of simple maps between SNOMED CT concepts and values in other code systems. | Appropriate where there is a close "one-to-one" mapping between SNOMED CT concepts and coded values in another code system.   
-Complex and Extended Map reference sets| Allows representation of simple complex maps between SNOMED CT concepts and values in other code systems | Enables representation of maps where each SNOMED CT concept may map to one or more codes in a target scheme, or where the correlation of each map should be specified   
-Language reference set| Supports the representation of language and dialects preferences for the use of particular descriptions | Used to specify the acceptable and preferred terms for use within a particular country or region. Can also be used to represent preferences for use of descriptions in a more specific context such as a clinical specialty, organization or department   
-Query specification reference set| Allows a serialized query to represent the membership of a subset of SNOMED CT components| Used to represent Intentional definitions of reference sets. Constrain values available in clinical data entry templates, as part of a terminology binding   
-Annotation reference set| Allows text strings to be associated with components for any specified purpose| E.g. linking a SNOMED CT component to a url, e.g. for linking to a clinical guideline  
-Association reference set| Represents a set of unordered associations of a particular type between components| Used to associate inactive concepts with active concepts that can serve as potential replacements for the inactivated concepts   
-  
 ## Reference Sets for Technical Use
 
-  
+Table: Overview of reference set types and example use cases, as described in the international Release of SNOMED CT
 
-Table Appendix A:-1: Overview of reference set types and example use cases, as described in the international Release of SNOMED CT
 
-  
 
-**Reference Set Type**| **Description**| **Example Use Cases**  
----|---|---  
-Module dependency reference set| Represents dependencies between different SNOMED CT release modules| The Module Dependency reference set is used to ensure that all dependencies are satisfied when importing data   
-Description format reference set| Specifies the text format and maximum length of each supported description type| Specify new, localized description formats to be used in an Extension  
-Reference set descriptor reference set| Represents the format of all reference sets included in a particular release | Specify new, customized reference set formats to be used in an Extension  
-  
-* * *
+<table><thead><tr><th width="232.328125">Reference Set Type</th><th>Description</th><th>Example Use Cases</th></tr></thead><tbody><tr><td>Module dependency reference set</td><td>Represents dependencies between different SNOMED CT release modules</td><td>The Module Dependency reference set is used to ensure that all dependencies are satisfied when importing data</td></tr><tr><td>Description format reference set</td><td>Specifies the text format and maximum length of each supported description type</td><td>Specify new, localized description formats to be used in an Extension</td></tr><tr><td>Reference set descriptor reference set</td><td>Represents the format of all reference sets included in a particular release</td><td>Specify new, customized reference set formats to be used in an Extension</td></tr></tbody></table>
+
+***

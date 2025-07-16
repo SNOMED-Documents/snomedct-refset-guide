@@ -4,6 +4,6 @@
 
 The SNOMED CT Practical Guide to Reference Sets starts by identifying practical use cases and the requirements that must be met to address them. It then explains how different types of reference sets can be used to meet those requirements. It also provides advice on different approaches to creating, editing, maintaining and using reference sets to support effective localization and customization of SNOMED CT.
 
-<table data-view="cards"><thead><tr><th></th></tr></thead><tbody><tr><td>Intorduction</td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th></tr></thead><tbody><tr><td><a href="1 introduction/">Introduction</a></td></tr><tr><td><a href="2 subsets-value-sets-and-reference-sets/">Subsets, Value Sets and Reference Sets</a></td></tr><tr><td><a href="3 requirements-and-use-cases/">Requirements and Use Cases</a></td></tr><tr><td><a href="4-reference-set-design.md">Reference Set Design</a></td></tr><tr><td><a href="5-reference-set-types.md">Reference Set Types</a></td></tr><tr><td><a href="6 reference-set-development/">Reference Set Development</a></td></tr></tbody></table>
 
 {% include "https://app.gitbook.com/s/5ePKL1wPtOcE6DS3HJBR/~/reusable/MLPTPVV150ldNmCkOl87/" %}
