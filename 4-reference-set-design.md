@@ -139,3 +139,10 @@ When creating customized reference sets, it is important to ensure that the stru
 <figure><img src="https://github.com/IHTSDO/snomedct-refset-guide/blob/main/4%20reference-set-design/4.2%20common-reference-set-format/plugins/servlet/confluence/placeholder/unknown-macro" alt=""><figcaption></figcaption></figure>
 
 [^1]: To be more precise, each row of a reference set table represents a version of a member of a reference set because, like SNOMED CT components, reference set members can be revised or inactivated by adding new versions to subsequent versions of a release file.
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=Refset+Guide&entry.670899847=Reference%20Set%20Design" class="button primary">Provide Feedback</a>

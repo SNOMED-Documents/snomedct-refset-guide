@@ -62,3 +62,10 @@ Besides from the 4 identification and versioning attributes, the annotation refe
 &#x20;See specification: [DEPRECATED: Annotation Reference Set](https://confluence.ihtsdotools.org/display/DOCRELFMT/5.2.1.6+DEPRECATED%3A+Annotation+Reference+Set)
 {% endhint %}
 
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=Refset+Guide&entry.670899847=Appendix%20B%3A%20Deprecated%20Reference%20Set%20Types" class="button primary">Provide Feedback</a>

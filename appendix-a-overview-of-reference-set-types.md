@@ -15,3 +15,10 @@ Table: Overview of reference set types and example use cases, as described in th
 <table><thead><tr><th width="232.328125">Reference Set Type</th><th>Description</th><th>Example Use Cases</th></tr></thead><tbody><tr><td>Module dependency reference set</td><td>Represents dependencies between different SNOMED CT release modules</td><td>The Module Dependency reference set is used to ensure that all dependencies are satisfied when importing data</td></tr><tr><td>Description format reference set</td><td>Specifies the text format and maximum length of each supported description type</td><td>Specify new, localized description formats to be used in an Extension</td></tr><tr><td>Reference set descriptor reference set</td><td>Represents the format of all reference sets included in a particular release</td><td>Specify new, customized reference set formats to be used in an Extension</td></tr></tbody></table>
 
 ***
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=Refset+Guide&entry.670899847=Appendix%20A%3A%20Overview%20of%20Reference%20Set%20Types" class="button primary">Provide Feedback</a>

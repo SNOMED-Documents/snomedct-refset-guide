@@ -260,3 +260,10 @@ SNOMED International recommends two uses of the '\_'-symbol:
 For all uses of human-readable reference sets and use of additional annotations it is very important that users do not include information which affects the use of the reference set within the human-readable columns (columns with the '\_' prefix). All information relevant for implementation, processing and processing of the reference set should be represented according to the standard, machine-processable format. Consequently, all columns with the '\_'-prefix should be able to be ignored when the reference set is implemented.&#x20;
 
 ***
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=Refset+Guide&entry.670899847=Reference%20Set%20Types" class="button primary">Provide Feedback</a>
