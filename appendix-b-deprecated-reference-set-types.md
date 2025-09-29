@@ -14,8 +14,8 @@ This reference set type has been deprecated in favour of two new reference set t
 The design of the ordered reference set supports three overall purposes:
 
 1. To specify a sequential order of a subset of components
-2. To specify prioritized groups within a subset of components&#x20;
-3. To define alternative hierarchies of components&#x20;
+2. To specify prioritized groups within a subset of components
+3. To define alternative hierarchies of components
 
 ### Ordering <a href="#orderedreferenceset-ordering" id="orderedreferenceset-ordering"></a>
 
@@ -27,13 +27,13 @@ This type of ordered reference set can for example be used to prioritize the sor
 
 ### Prioritization <a href="#orderedreferenceset-prioritizationprioritization" id="orderedreferenceset-prioritizationprioritization"></a>
 
-Prioritization is similar to order but multiple components may have the same rank. In this case the value of the order attribute specify a priority order for a group of components.&#x20;
+Prioritization is similar to order but multiple components may have the same rank. In this case the value of the order attribute specify a priority order for a group of components.
 
 <figure><img src="https://confluence.ihtsdotools.org/download/attachments/35985666/image2016-7-21%208%3A55%3A31.png?version=1&#x26;modificationDate=1482423992000&#x26;api=v2" alt=""><figcaption><p>Ordered reference set with prioritized groups</p></figcaption></figure>
 
 ### Alternative hierarchy <a href="#orderedreferenceset-alternativehierarchy" id="orderedreferenceset-alternativehierarchy"></a>
 
-The diagram below Illustrates how the three attributes referencedComponentId, order and linkedToId are used to create an alternative hierarchical order of some of the concepts from the subtype hierarchy.&#x20;
+The diagram below Illustrates how the three attributes referencedComponentId, order and linkedToId are used to create an alternative hierarchical order of some of the concepts from the subtype hierarchy.
 
 <figure><img src="https://confluence.ihtsdotools.org/download/attachments/35985666/worddav607276daeb2cf6f6bb54a6e6e3c871b5.png?version=1&#x26;modificationDate=1482423992000&#x26;api=v2" alt=""><figcaption><p>Ordered reference set example.</p></figcaption></figure>
 
@@ -45,27 +45,20 @@ The diagram below Illustrates how the three attributes referencedComponentId, or
 
 ## Annotation Reference Set
 
-[900000000000516008 <mark style="color:blue;">|</mark> Annotation type reference set<mark style="color:blue;">|</mark>](http://snomed.info/id/900000000000516008) allows  String to be associated with components for any specified purpose. So, where the [900000000000521006 <mark style="color:blue;">|</mark> Association type reference set<mark style="color:blue;">|</mark>](http://snomed.info/id/900000000000521006) linked a SNOMED CT component to another SNOMED CT components, the [900000000000516008 <mark style="color:blue;">|</mark> Annotation type reference set<mark style="color:blue;">|</mark>](http://snomed.info/id/900000000000516008) allow a SNOMED CT component to be linked to a non-standardized string annotation.
+900000000000516008 <mark style="color:blue;">|</mark> Annotation type reference set<mark style="color:blue;">|</mark> allows String to be associated with components for any specified purpose. So, where the 900000000000521006 <mark style="color:blue;">|</mark> Association type reference set<mark style="color:blue;">|</mark> linked a SNOMED CT component to another SNOMED CT components, the 900000000000516008 <mark style="color:blue;">|</mark> Annotation type reference set<mark style="color:blue;">|</mark> allow a SNOMED CT component to be linked to a non-standardized string annotation.
 
 <figure><img src=".gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
-\
-
+\\
 
 ### Reference Specific Attributes <a href="#annotationreferenceset-referencespecificattributes" id="annotationreferenceset-referencespecificattributes"></a>
 
 Besides from the 4 identification and versioning attributes, the annotation reference set type has following attributes.
 
-<table><thead><tr><th width="207.10546875">Field</th><th width="121.859375">Data type</th><th>Purpose</th></tr></thead><tbody><tr><td>referencedComponentId</td><td>SCTID</td><td>The identifier of the  component to be annotated.</td></tr><tr><td>annotation</td><td>String</td><td>The text  annotation to attach to the  component identified by referencedComponentId.</td></tr></tbody></table>
+<table><thead><tr><th width="207.10546875">Field</th><th width="121.859375">Data type</th><th>Purpose</th></tr></thead><tbody><tr><td>referencedComponentId</td><td>SCTID</td><td>The identifier of the component to be annotated.</td></tr><tr><td>annotation</td><td>String</td><td>The text annotation to attach to the component identified by referencedComponentId.</td></tr></tbody></table>
 
 {% hint style="warning" %}
-&#x20;See specification: [DEPRECATED: Annotation Reference Set](https://confluence.ihtsdotools.org/display/DOCRELFMT/5.2.1.6+DEPRECATED%3A+Annotation+Reference+Set)
+See specification: [DEPRECATED: Annotation Reference Set](https://app.gitbook.com/s/irKbJsZG57nSWZA4GT0M/reference-set-release-file-specification/5.2-reference-set-types/5.2.1-content-reference-sets/5.2.1.6-deprecated-annotation-reference-set)
 {% endhint %}
 
-
-
-
-
-
-
-<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=Refset+Guide&entry.670899847=Appendix%20B%3A%20Deprecated%20Reference%20Set%20Types" class="button primary">Provide Feedback</a>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=Refset+Guide&#x26;entry.670899847=Appendix%20B%3A%20Deprecated%20Reference%20Set%20Types" class="button primary">Provide Feedback</a>
