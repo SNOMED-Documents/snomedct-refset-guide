@@ -137,8 +137,6 @@ Reference sets of a particular type are identified by concepts that are subtypes
 
 The organization responsible for creating the reference set may add intermediate subtype concepts of the reference set type concept to group together reference sets of that type for which they are responsible. For example, the simple reference sets created by the SNOMED International group responsible for General Practice / Family Practice reference sets are organized as shown below.
 
-|
-
 <mark style="color:red;">2920887014</mark> 2920887014 <mark style="color:blue;">|</mark>General Practice / Family Practice reference set<mark style="color:blue;">|</mark>\
 450971007 <mark style="color:blue;">|</mark>GP/FP reason for encounter reference set<mark style="color:blue;">|</mark>\
 450974004 <mark style="color:blue;">|</mark>Symptoms and signs reference set for GP/FP reason for encounter<mark style="color:blue;">|</mark>\

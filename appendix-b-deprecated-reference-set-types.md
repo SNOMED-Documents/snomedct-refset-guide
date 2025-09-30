@@ -23,11 +23,15 @@ Ordered reference set can also be used to create a simple ordered list of compon
 
 This type of ordered reference set can for example be used to prioritize the sort order of the descriptions with identical terms when they are displayed. It can also be used to specify the order of descriptions displayed in a simple pick list.
 
+<figure><img src=".gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+
 <figure><img src="https://confluence.ihtsdotools.org/download/attachments/35985666/worddav1bc9228010e80acf97a985485c16361f.png?version=1&#x26;modificationDate=1482423992000&#x26;api=v2" alt=""><figcaption><p>Ordered reference set with no groups</p></figcaption></figure>
 
 ### Prioritization <a href="#orderedreferenceset-prioritizationprioritization" id="orderedreferenceset-prioritizationprioritization"></a>
 
 Prioritization is similar to order but multiple components may have the same rank. In this case the value of the order attribute specify a priority order for a group of components.
+
+<figure><img src=".gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="https://confluence.ihtsdotools.org/download/attachments/35985666/image2016-7-21%208%3A55%3A31.png?version=1&#x26;modificationDate=1482423992000&#x26;api=v2" alt=""><figcaption><p>Ordered reference set with prioritized groups</p></figcaption></figure>
 
