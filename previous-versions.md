@@ -23,15 +23,10 @@ Preview [$itemLabel](https://github.com/IHTSDO/snomedct-refset-guide/blob/main/$
 
 * Drag and drop to upload or browse for files
 
-<figure><img src="images/wait.gif" alt=""><figcaption><p>Upload file</p></figcaption></figure>
+<figure><img src=".gitbook/assets/wait.gif" alt=""><figcaption><p>Upload file</p></figcaption></figure>
 
 File description
 
 [Download All](https://github.com/IHTSDO/snomedct-refset-guide/blob/main/pages/downloadallattachments.action?pageId=44107986)
 
-
-
-
-
-
-<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=Refset+Guide&entry.670899847=Previous%20Versions" class="button primary">Provide Feedback</a>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=Refset+Guide&#x26;entry.670899847=Previous%20Versions" class="button primary">Provide Feedback</a>

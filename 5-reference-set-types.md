@@ -29,7 +29,7 @@ The components can be specified for inclusion or exclusion for a specified purpo
 
 Simple reference sets contain only the basic information needed to define a subset. As presented in the section about the [reference set design](4-reference-set-design.md), each member in a reference set has a referencedComponentId attribute, which is used to refer to the component that is a member of the reference set. Within the instances of this attribute, the individual references to components are stored. The diagram below illustrates an example of a simple reference set, and illustrates how the subset members are referenced in the referencedComponentId attribute.
 
-<figure><img src="images/162728304.png" alt=""><figcaption><p>Simple reference set example</p></figcaption></figure>
+<figure><img src=".gitbook/assets/162728304.png" alt=""><figcaption><p>Simple reference set example</p></figcaption></figure>
 
 ## Query Specification Reference Set
 
@@ -62,13 +62,13 @@ The design of the ordered reference set supports two overall purposes:
 
 Ordered component reference set can be used to create a simple ordered list of components, i.e. a list that do not include any nesting, or groups. It can for example be used to prioritize the sort order of the descriptions with identical terms when they are displayed. It can also be used to specify the order of descriptions displayed in a simple pick list.
 
-<figure><img src="images/45527042.png" alt=""><figcaption><p>Ordered reference set with no groups</p></figcaption></figure>
+<figure><img src=".gitbook/assets/45527042.png" alt=""><figcaption><p>Ordered reference set with no groups</p></figcaption></figure>
 
 ### Prioritization
 
 Prioritization is similar to order but multiple components may have the same rank. In this case the value of the order attribute specify a priority order for a group of components.
 
-<figure><img src="images/45527040.png" alt=""><figcaption><p>Ordered reference set with prioritized groups.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/45527040.png" alt=""><figcaption><p>Ordered reference set with prioritized groups.</p></figcaption></figure>
 
 ### Reference Set Specific Attributes
 
@@ -96,7 +96,7 @@ Associations between components can be used to form groups of components, as ill
 
 Some situations may require components to be rendered in an alternative hierarchy than the polyhierarchy specified by the <mark style="color:blue;">|</mark> is a <mark style="color:blue;">|</mark> relationships in SNOMED CT. The diagram below Illustrates how the three attributes referencedComponentId, targetComponentId and order are used to create an alternative hierarchical order of some of the concepts from the subtype hierarchy.
 
-<figure><img src="images/45527037.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/45527037.png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="https://github.com/IHTSDO/snomedct-refset-guide/blob/main/5%20reference-set-types/plugins/servlet/confluence/placeholder/unknown-macro" alt=""><figcaption></figcaption></figure>
 
@@ -152,11 +152,11 @@ An attribute value reference set is a component reference set used to apply a ta
 
 <figure><img src="https://github.com/IHTSDO/snomedct-refset-guide/blob/main/5%20reference-set-types/plugins/servlet/confluence/placeholder/unknown-macro" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="images/99681069.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/99681069.png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="https://github.com/IHTSDO/snomedct-refset-guide/blob/main/5%20reference-set-types/plugins/servlet/confluence/placeholder/unknown-macro" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="images/99681068.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/99681068.png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="https://github.com/IHTSDO/snomedct-refset-guide/blob/main/5%20reference-set-types/plugins/servlet/confluence/placeholder/unknown-macro" alt=""><figcaption></figcaption></figure>
 
@@ -185,7 +185,7 @@ The Language reference set is essential to enable the preferred terms to be iden
 
 The following diagram shows an example of the description file included in the International Release and the US Language reference set, which is also distributed with the International Release of SNOMED CT. The language reference set states the acceptability of the descriptions, i.e. whether they are preferred or synonym. For each concept there may be any number of acceptable descriptions of each description type in each language reference set. The diagram below shows how the description file holds information about the description type, and the language reference set specify the acceptability of the descriptions.
 
-<figure><img src="images/35985696.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/35985696.png" alt=""><figcaption></figcaption></figure>
 
 Even though a concept has several descriptions of the type 900000000000013009 <mark style="color:blue;">|</mark> Synonym (core metadata concept)<mark style="color:blue;">|</mark> related to it, the **language reference set** allows automatic identification of the **preferred term**. The language reference set does not contain any terms, as these are represented in the description file. Hence, it refers to descriptions by referencing the descriptionId, and the description release file is therefore a prerequisite for retrieving the actual term when applying the language reference set .
 

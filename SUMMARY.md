@@ -28,3 +28,4 @@
 * [Appendix B: Deprecated Reference Set Types](appendix-b-deprecated-reference-set-types.md)
 * [Previous Versions](previous-versions.md)
 * [Recent Updates](recent-updates.md)
+* [Appendix C: Videos](appendix-c-videos.md)

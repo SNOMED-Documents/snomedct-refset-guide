@@ -4,7 +4,7 @@ The reference set mechanism is developed to support a range of different purpose
 
 The figure below provides an overview of some of the terms that are central for understanding the reference set design and how reference sets are specified and represented . Each of these terms will be elaborated in the following pages.
 
-<figure><img src="images/35985477.png" alt=""><figcaption><p>Relation between reference set types and descriptor templates</p></figcaption></figure>
+<figure><img src=".gitbook/assets/35985477.png" alt=""><figcaption><p>Relation between reference set types and descriptor templates</p></figcaption></figure>
 
 ## Reference Set Types and Descriptors
 
@@ -18,7 +18,7 @@ All reference sets that are released as part of the International Edition or fro
 
 An organization that releases reference sets should only release them without Descriptor Templates if the reference set follows a predefined pattern or if it is sure that its consumers do not require the information held within the Descriptor Template. You should note that Descriptor Templates are optional for other organizations, besides from SNOMED International, that create reference sets that do not follow a predefined pattern. However, we strongly recommend to specify the reference set descriptor template in the reference set Descriptor, to support automatic processing, validation and sharing of the reference sets.The diagram below illustrates the different reference set types and highlight some of the specific reference sets that are included in the International Edition of SNOMED CT.
 
-<figure><img src="images/35985483.png" alt=""><figcaption><p>Reference set types and reference sets included in the International Edition of SNOMED CT</p></figcaption></figure>
+<figure><img src=".gitbook/assets/35985483.png" alt=""><figcaption><p>Reference set types and reference sets included in the International Edition of SNOMED CT</p></figcaption></figure>
 
 ### Reference Set Descriptor
 
@@ -48,7 +48,7 @@ All reference set patterns provide general functionality which is enabled by the
 
 For example, the general functionality of an [association reference set ](5-reference-set-types.md#association-reference-set)is to represent a set of unordered associations of a particular type between SNOMED CT components. This general functionality may be sufficient to fulfill a range of different requirements. It may be used to associate inactive components with active concepts which can be used as suitable replacements for the inactive concept. This use may be important for maintenance when a single reference set is used in a range of locations, and it is required to ensure consistent use of alternatives when content is inactivated. Another use of the same pattern may be to associate findings and procedures, which enables a simple form of conditional documentation support, for example, when a particular finding has been recorded, these are the procedures which may be appropriate.
 
-<figure><img src="images/35985485.png" alt=""><figcaption><p>Illustration of the general functionality and specific uses of selected types of reference sets</p></figcaption></figure>
+<figure><img src=".gitbook/assets/35985485.png" alt=""><figcaption><p>Illustration of the general functionality and specific uses of selected types of reference sets</p></figcaption></figure>
 
 When deciding what reference set to develop it is therefore important to be aware of what requirements there are for use of that particular reference set, in order to decide on a pattern, which reflect the general functionality that meet a specific usage.
 
@@ -103,7 +103,7 @@ This concept is a subtype of the concept 900000000000455006 <mark style="color:b
 
 As for other all concepts in SNOMED CT, descriptions and relationships are added to enable human-readable representation of the concept, and to place the concept in the SNOMED CT hierarchy. The descriptions provide the name of the reference set, and the relationship refers to the concept representing the reference set type. This is illustrated in the diagram below where the concept with the id 49999999102 has the associated description "Infectious disease simple reference set", and the relationship places the concept as a subtype of the concept 446609009 <mark style="color:blue;">|</mark> Simple type reference set (foundation metadata concept)<mark style="color:blue;">|</mark> .
 
-<figure><img src="images/35985492.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/35985492.png" alt=""><figcaption></figcaption></figure>
 
 Reference sets of a particular type are identified by concepts that are subtypes of the concept representing the reference set type.
 
@@ -173,7 +173,7 @@ There might be situations where none of the defined reference set patterns are s
 
 If an existing pattern almost meets the requirements a developing organization may want to simply add additional attributes to an existing reference set pattern. If none of the existing patterns can be adapted it is also possible to develop a new reference set pattern or a reference set that does not follow any specified pattern. The different approaches to customizing a reference set are illustrated in the figure below.
 
-<figure><img src="images/35985494.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/35985494.png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="https://github.com/IHTSDO/snomedct-refset-guide/blob/main/4%20reference-set-design/plugins/servlet/confluence/placeholder/unknown-macro" alt=""><figcaption></figcaption></figure>
 

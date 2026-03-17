@@ -6,17 +6,8 @@ The lifecycle of reference set work spans from the point where there is an initi
 
 The overview provided in following diagram is not intended to imply that a waterfall methodology should be used to develop a reference set. It may be delivered using agile or iterative project methodologies, with the reference set and supporting project documentation evolving as the project develops.
 
-<figure><img src="../images/35985706.png" alt=""><figcaption><p>Reference set development process</p></figcaption></figure>
-
-
-
-
+<figure><img src="../.gitbook/assets/35985706.png" alt=""><figcaption><p>Reference set development process</p></figcaption></figure>
 
 ***
 
-
-
-
-
-
-<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=Refset+Guide&entry.670899847=Reference%20Set%20Development" class="button primary">Provide Feedback</a>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=Refset+Guide&#x26;entry.670899847=Reference%20Set%20Development" class="button primary">Provide Feedback</a>
